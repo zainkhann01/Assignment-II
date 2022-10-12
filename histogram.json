@@ -3,10 +3,10 @@
   "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
  
   "width": {"step": 30 },
-  "height": 360,
+  "height": 260,
   "title": {
-     "text": "Industry Comparison by states for last 8 years",
-     "anchor": "middle",
+     "text": "Industry Comparison by states",
+     "anchor": "start",
      "fontSize": 15
    },
  
@@ -29,9 +29,9 @@
  
   "aggregate": "sum", "field": "revenue",
  
-  "title": "Revenue (in millions)",
+  "title": "Revenue",
  
-  "axis": {"grid": false}
+  "axis": {"grid": true}
  
   },
  
@@ -64,7 +64,7 @@
  
   "view": {"stroke": "transparent"},
  
-  "axis": {"domainWidth": 1}
+  "axis": {"domainWidth": 0}
  
   }
  
